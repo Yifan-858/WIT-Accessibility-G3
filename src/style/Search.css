@@ -1,0 +1,26 @@
+.search-section {
+  padding: 2rem 18%;
+}
+
+.booking-genre {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.genre-btn {
+  margin-right: 2px;
+  height: 2rem;
+  width: 6rem;
+  background-color: var(--main-color);
+  color: #fff;
+  border: #fff 1px solid;
+  border-radius: 30px;
+}
+
+.genre-btn:focus {
+  background-color: #0062e3;
+  border: #0062e3 1px solid;
+  outline: var(--acc-color) solid 5px;
+}

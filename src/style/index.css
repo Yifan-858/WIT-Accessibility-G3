@@ -1,0 +1,27 @@
+:root {
+  --main-color: #05203c;
+  --secondary-color: #0062e3;
+  --acc-color: #ffe500;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+svg {
+  width: auto;
+  height: auto;
+  fill: currentColor;
+}
+
+body {
+  font-family: Inter;
+  position: relative;
+}
+
+.top-menu {
+  background-color: var(--main-color);
+  color: #fff;
+}
