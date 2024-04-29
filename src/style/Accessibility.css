@@ -65,7 +65,8 @@
 
   width: 313px;
   height: 234px;
-  color: #fff;
+  color: white;
+
   font-family: Inter;
   font-size: 30px;
   font-style: normal;
@@ -76,9 +77,27 @@
   border-radius: 14px;
 }
 
+.acc-option-btn:focus {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 313px;
+  height: 234px;
+
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  color: black;
+  background-color: var(--acc-color);
+  border-radius: 14px;
+}
+
 .acc-option-icon {
-  fill: #fff;
-  stroke: #fff;
   width: 99px;
   height: 99px;
   flex-shrink: 0;
